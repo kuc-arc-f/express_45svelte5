@@ -1,0 +1,20 @@
+
+{
+  "extends": "@tsconfig/svelte/tsconfig.json",
+  "compilerOptions": {
+    "baseUrl": "./",
+    "outDir": "./dist",
+    "target": "ESNext",
+    "module": "ESNext",
+    "sourceMap": false,
+    "strict": true,
+    "removeComments": true,
+    "esModuleInterop": true,
+    "moduleResolution": "node",
+    "jsx": "react-jsx"
+  },
+  "include": ["./src/**/*"],
+  "exclude": [
+    "./src/test/*", "node_modules"
+  ]
+}
